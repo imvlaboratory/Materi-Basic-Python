@@ -26,14 +26,25 @@ Python pertama kali dirilis pada tahun 1991, dan sejak itu telah menjadi salah s
 **Beberapa karakteristik dari bahasa Python, diantaranya :**
 
 1. Sintaksis yang sederhana dan Ekspresif
+
    Python memilki sintaksis yang mudah dibaca dan lebih dekat dengan bahasa manusia dibandingkan dengan bahasa pemrograman lainnya.
+
 2. Dinamis dan Ditetapkan Pada Saat Runtime
+
    Python adalah bahasa pemrograman yang dinamis, yang berarti tipe data dapat diidentifikasi selama runtime. Hal ini menghilangkan kebutuhan untuk mendeklarasikan tipe data secara eksplisit.
+
 3. Dukungan untuk Berbagai Paradigma Pemrograman
+
    Python mendukung pemrograman berorientasi objek, pemrograman prosedural, dan pemrograman fungsional.
+
 4. Memiliki Koleksi Modul dan Perpustakaan yang Luas
+
    Python memiliki ekosistem yang luas dengan ribuan modul dan perpustakaan yang siap pakai untuk membantu dalam pengembangan dan penyelesaian tugas-tugas tertentu.
+
 5. Portabilitas dan Ketersediaan Platform
+
    Python dapat dijalankan di berbagai platform, termasuk Windows, macOS, Linux, Android, iOS, dan sebagainya.
+
 6. Interpretatif
+
    Python adalah bahasa yang diinterpretasi, yang berarti kode Python dapat dijalankan tanpa memerlukan proses kompilasi menjadi bahasa mesin
