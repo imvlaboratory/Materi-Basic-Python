@@ -36,7 +36,8 @@ Oleh karena itu, pada artikel ini akan dijelaskan bagaimana cara menginstall int
 - Selanjutnya buka atau run file installer Python yang sudah kalian download. Jangan lupa untuk centang bagian **Add Python 3.13 to PATH**
   ![7](7.png "7.png")
 
-* Tunggu hingga proses instalasi selesai
+* Tunggu hingga proses instalasi selesai.
+
   ![8](8.png "8.png")
 
 * Setelah proses instalasi selesai, teman-teman dapat cek langsung versi python yang sudah berhasil terinstall. Teman-teman juga dapat mencoba menjalankan python di CMD dengan cara mengetik **python**. Contohnya seperti gambar dibawah ini.
