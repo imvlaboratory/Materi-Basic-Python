@@ -15,33 +15,32 @@ Oleh karena itu, pada artikel ini akan dijelaskan bagaimana cara menginstall int
 # Windows
 
 - Tahap pertama adalah mengecek terlebih dahulu apakah di Windows kalian sudah ada Python interpreter atau belum. Caranya adalah buka CMD Prompt, lalu search pada search bar
-  ![2](2.png "2.png")
+  ![1](1.png "1.png")
 
   Jika CMD sudah terbuka, maka ketikkan : "python --version"
-  ![1](1.png "1.png")
+  ![2](2.png "2.png")
   Jika muncul keterangan seperti pada gambar, maka laptop kalian sudah memiliki python. Versi Python yang terinstall dapat diihat pada CMD.
 
 - Apabila laptop anda belum terinstall Python, maka ikuti langkah berikut. Yang pertama downoad terlebih dahulu file python untuk windows, dapat di download pada link berikut : <https://www.python.org/downloads/>
   ![3](3.png "3.png")
 
 - Kemudian pilih versi python yang ingin anda install. Umumnya versi python yang diinstall menggunakan versi terbaru, akan tetapi beberapa versi windows yang lama dapat menggunakan versi python sebelumnya. Jadi tidak masalah jika versi python teman-teman masih menggunakan versi yang lama (Disarankan untuk menggunakan **minimal** versi 3.12). Teman-teman bisa scroll kebawah untuk melihat atau mencari versi python yang lama atau yang diinginkan.
-  ![4](4.png "4.png")
 
 - Langkah selanjutnya teman-teman bisa langsung klik download pada versi yang diinginkan (disini saya menggunakan versi terbaru).
-  ![5](5.png "5.png")
+  ![4](4.png "4.png")
 
 - Lalu scroll lagi kebawah sampai ketemu windows installer, pilih 32 aau 64 (biasanya 64) tergantung system yang kalian gunakan.
-  ![6](6.png "6.png")
+  ![5](5.png "5.png")
 
 - Selanjutnya buka atau run file installer Python yang sudah kalian download. Jangan lupa untuk centang bagian **Add Python 3.13 to PATH**
-  ![7](7.png "7.png")
+  ![6](6.png "6.png")
 
 * Tunggu hingga proses instalasi selesai.
 
-  ![8](8.png "8.png")
+  ![7](7.png "7.png")
 
 * Setelah proses instalasi selesai, teman-teman dapat cek langsung versi python yang sudah berhasil terinstall. Teman-teman juga dapat mencoba menjalankan python di CMD dengan cara mengetik **python**. Contohnya seperti gambar dibawah ini.
-  ![9](9.png "9.png")
+  ![8](8.png "8.png")
 
   Sampai sini proses installasi python pada windows telah selesai. Untuk teman-teman pengguna MacOS dapat mengikuti tutorial berikut <https://www.youtube.com/watch?v=HSAm6s10G7g&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=3>
 
