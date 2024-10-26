@@ -12,7 +12,7 @@ Bahasa pemrograman yang kodenya diterjemahkan secara langsung oleh interpreter m
 
 Oleh karena itu, pada artikel ini akan dijelaskan bagaimana cara menginstall interpretasi pada Windows dan MacOS
 
-# Windows
+## Windows
 
 - Tahap pertama adalah mengecek terlebih dahulu apakah di Windows kalian sudah ada Python interpreter atau belum. Caranya adalah buka CMD Prompt, lalu search pada search bar
   ![1](1.png "1.png")
