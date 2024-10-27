@@ -114,12 +114,13 @@ else:
 **Tambahan Materi statement**
 
 - Arithmatic Statement
+
   ![1](1.png "1.png")
 
 - Comparison Statement
+
   ![2](2.png "2.png")
 
 - Logical Statement
-  ![3](3.png "3.png")
 
-hshhsahs
+  ![3](3.png "3.png")
