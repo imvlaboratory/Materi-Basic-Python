@@ -115,12 +115,12 @@ else:
 
 - Arithmatic Statement
 
-  ![arit state](https://drive.google.com/file/d/1CeASYBZRBKZp18U8blJuFqAOAVAUoVpF/view?usp=drive_link)
+  ![1](1.png "1.png")
 
 - Comparison Statement
 
-  ![Compar state](https://drive.google.com/file/d/1LsABpVHKvegywfWh99lJas5l69A-Y5GV/view?usp=drive_link)
+  ![2](2.png "2.png")
 
 - Logical Statement
 
-  ![logic satate](https://drive.google.com/file/d/1SPHbfvgNcpb1E1Hk6VilhBopmM61XSvZ/view?usp=drive_link)
+  ![3](3.png "3.png")
