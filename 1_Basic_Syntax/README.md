@@ -115,12 +115,12 @@ else:
 
 - Arithmatic Statement
 
-  ![1](1.png "1.png")
+  ![1](../assets/1.png "1.png")
 
 - Comparison Statement
 
-  ![2](2.png "2.png")
+  ![2](../assets/2.png "2.png")
 
 - Logical Statement
 
-  ![3](3.png "3.png")
+  ![3](../assets/3.png "3.png")
