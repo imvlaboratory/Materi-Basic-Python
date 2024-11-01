@@ -63,3 +63,67 @@ print(tambah(4,5)) #Output 9
 ## Modularity
 
 Modularity atau modularitas adlaah konsep dalam pemrograman yang merujuk pada pemisahan program kedalam bagian-bagian yang lebih kecil yang disebut modul. Modul adalah file Python yang berisi definsi variabel, fungsi, dan kelas yang dapat digunakan oleh program lain. Prinsip modulasi memberikan keuntungan dalam pemeliharaan, pengembangan, dan kejelasan kode.
+
+### Keuntungan Modularitas
+
+- Pemisahan Tugas
+
+Program yang besar dan kompleks dapat dibagi menjadi modul-modul kecil, memudahkan pengelolaan dan pemeliharaan.
+
+- Penggunaan Kembali Kode
+
+Modul dapat digunakan kembali dalam proyek. Sebuah fungsi atau kelas yang didefinisikan dalam satu modul dapat dimpor dn digunakan dimodul lain.
+
+- Kejelasan kode
+
+Pembagian program kedalam modul-modul membuat kode menjadi lebih terstruktur dan mudah dipahami. Setiap modul dapat fokus pada suatu tugas atau fitur tertentu.
+
+- Isolasi Logika
+
+Modul memberikan isolasi logika, dimana perubahan dalam satu modul tidak memengaruhi bagian lain dari program, asalkan antarmuka modul tetap konsisten.
+
+### Cara Menggunakan Modularitas dalam Python
+
+1. **Membuat Modul**
+
+   - Definisikan variabel, fungsi, dan kelas di dalam suatu file Python.
+
+   - Simpan file tersebut dengan ekstensi `.py`, misal `coba_modul.py`.
+
+   ```
+   # contoh kodingan didalam: coba_modul.py
+
+   def greet(name):
+       print(f"Hola, {name}!")
+
+   def exponensial(x,y):
+       hasil = x**y
+       return hasil
+   ```
+
+2. **Mengimport Modul**
+
+   - Gunakan pernyataan import untuk mengimport atau memanggil modul kedalam program utama.
+
+   ```
+   import coba_modul.py
+   ```
+
+3. **Pemanggilan Fungsi atau Variabel dari Modul**
+
+   - Setelah mengimport modul, panggil fungsi atau variabelnya menggunakan sintks `nama_modul.nama_fungsi`.
+
+   ```
+   import coba_modul.py
+
+   hasil = coba_modul.eksponensial(3,4)
+   print hasil
+   ```
+
+### Catatan Penting
+
+- Pastikan file modul berada di directory yang sama dengan program utama.
+
+- Jangan lupa untuk menyertakan dokumen/docstring yang menjelaskan fungsi atau kelas yang didefinisikan didalam modul.
+
+Dengan menggunakan modularitas, programmer dapat mengelola kompleksitas, meningkatkan pemahaman terhadapt kode, dan memfasilitasi pengembangan tim. Modul merupakan salah satu prinsip penting dalam pemrograman yang mendukung pemeliharaan dan pengembangan yang efisien.
