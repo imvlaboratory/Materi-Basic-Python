@@ -11,10 +11,10 @@ Merupakan tipe data dasar dari berbagai bahasa pemrograman, salah satunya python
   Tipe data yang menyimpan bilangan bulat. Integer dapat berupa bilangan bulat positif, negatif, atau nol.
 
   ```
-  umur = 20
+  Umur = 20
   tahun = 2000
   nilai = 0
-  suhu = -10
+  Suhu = -10
   ```
 
 - Float
@@ -31,9 +31,8 @@ Merupakan tipe data dasar dari berbagai bahasa pemrograman, salah satunya python
   Tipe data yang menyimpan text. Dapat berupa karakter, kata, kalimat, atau bahkan paragraf.
 
   ```
-  H = "Hello world!"
-  x = 'ur my ex'
-  j = '11'
+  Nama = 'Andini'
+  Status = "Mahasiswi"
 
   multi_line = """ dengan tipe data ini bisa buat paragraf, puisi, dll"""
   ```

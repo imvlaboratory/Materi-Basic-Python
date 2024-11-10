@@ -10,12 +10,12 @@ Comment merupakan sebuah catatan yang dapat dimasukkan kedalam kode untuk menjel
 # Ini komen pada baris pertama
 # ini komen pada baris kedua
 
-""
+"""
 Ini adalah multi-line comment atau bisa disebut juga docs string
 
 dengan cara ini dapat membuat suatu dokumentasi.
 untuk pembahasan lebih lanjut akan dijelaskan pada (type data string)
-""
+"""
 ```
 
 ## Identasi
@@ -25,18 +25,12 @@ Merupakan suatu cara untuk menandai blok kode. Tidak seperti bahasa lain yang bi
 contoh :
 
 ```
-a = "variable dalam outer scope"
-print(a) # kode akan tereksekusi tanpa error, karna variable a dalam jangkauan
+if 5 > 3:
+    print('5 lebih besar dari 3')
+print("ini diluar blok if")
 
-    b = "variable dalam inner scope"
-    print(a) # kode akan tereksekusi tanpa error, karena variable a masih bisa dijangkau walaupun berada di scope luar
-    print(b) # kode akan tereksekusi tanpa error, karena variable b dalam jangkauan
-
-print(b) # kode error, variable a tidak terbaca karena ada pada block scope berbeda, dan outer scope tidak bisa membaca variable yang terdefinisi di inner scope
-
-if True:
-    print("Ini adalah bagian dari blok 'if'.")
-print("Ini di luar blok 'if'.")
+if 10 > 3:
+print('10 lebih besar dari 3') # Blok ini akan eror
 ```
 
 ## Variabel
@@ -56,21 +50,20 @@ Contoh penulisan variabel pada Python :
 # Variabel String(str)
 nama = "Bang Tata"
 alamat = "Basement TULT"
-A = "Ayam"
 
 # Variabel Numerik
-Umur  + 17
+Umur = 17
 T_Badan = 171.9
 
 # Variabel Boolean
-Single = True
-Punya_Pacar = False
+asistenIMV = True
+AsistenCPS = False
 
 # Variabel List
 Angka = [1, 2, 3, 4, 5]
 
 # Variabel Tuple
-Hari Libur = ("Senin", "Selasa", "Rabu")
+Hari_Libur = ('sabtu', 'minggu')
 
 # variabel Dictionary
 data = {"nama" : "Tata", "Alamat": "Jl. Bubat"}
@@ -102,11 +95,11 @@ c = a * b
 d = a == b
 
 # Logical Statement
-e = a > b dan c < d
+e = a > b and c < d
 
 # Control flow Statement
 if a > b:
-    print("a lebih besar dari B")
+    print("a lebih besar dari b")
 else:
     print("b lebih besar dari a)
 ```

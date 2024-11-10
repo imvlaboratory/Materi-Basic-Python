@@ -27,13 +27,16 @@ Python pertama kali dirilis pada tahun 1991, dan sejak itu telah menjadi salah s
 
 **Beberapa karakteristik dari bahasa Python, diantaranya :**
 
-1. Sintaksis yang sederhana dan Ekspresif
+1. Sederhana dan Mudah di pelajari
 
-   Python memilki sintaksis yang mudah dibaca dan lebih dekat dengan bahasa manusia dibandingkan dengan bahasa pemrograman lainnya.
+   Python memilki sintaksis yang mudah dibaca dan memiliki struktur kode yang sederhana. Berikut contoh perbedaan syntax pada Python dan C.
+
+   ![12](/assets/12.png "12.png")
+   ![13](/assets/13.png "13.png")
 
 2. Dinamis dan Ditetapkan Pada Saat Runtime
 
-   Python adalah bahasa pemrograman yang dinamis, yang berarti tipe data dapat diidentifikasi selama runtime. Hal ini menghilangkan kebutuhan untuk mendeklarasikan tipe data secara eksplisit.
+   Python adalah bahasa pemrograman yang dinamis, yang berarti tipe data dapat ditentukan saat runtime (Python dapat mengenali tipe data berdasarkan nilai yang diberikan kepada variabel). Hal ini menghilangkan kebutuhan untuk mendeklarasikan tipe data secara eksplisit (C, C++, atau java).
 
 3. Dukungan untuk Berbagai Paradigma Pemrograman
 
@@ -41,12 +44,12 @@ Python pertama kali dirilis pada tahun 1991, dan sejak itu telah menjadi salah s
 
 4. Memiliki Koleksi Modul dan Perpustakaan yang Luas
 
-   Python memiliki ekosistem yang luas dengan ribuan modul dan perpustakaan yang siap pakai untuk membantu dalam pengembangan dan penyelesaian tugas-tugas tertentu.
+   Python memiliki ekosistem yang luas dengan ribuan modul dan library yang siap pakai untuk membantu dalam pengembangan dan penyelesaian tugas-tugas tertentu. (NumPy, Pandas, Mathplotlib, math, datetime, dll)
 
-5. Portabilitas dan Ketersediaan Platform
+5. Platform Independent
 
    Python dapat dijalankan di berbagai platform, termasuk Windows, macOS, Linux, Android, iOS, dan sebagainya.
 
-6. Interpretatif
+6. Interpreted
 
-   Python adalah bahasa yang diinterpretasi, yang berarti kode Python dapat dijalankan tanpa memerlukan proses kompilasi menjadi bahasa mesin
+   Kode pada Python dieksekusi perbaris oleh interpreter, yang berarti python tidak perlu di kompilasi sebelum di jalankan. (Jadi kode yang ada akan tetap dijalankan sesuai dengan barisnya dan apabila bertemu eror program baru berhenti).

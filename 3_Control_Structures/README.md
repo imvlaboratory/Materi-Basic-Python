@@ -31,7 +31,7 @@ if a > 8:
 Digunakan untuk menjalankan kode jika kondisi dari if bernilai salah.
 
 ```
-a = 10
+a = 6
 
 if a > 11:
     print("a Lebih besar dari 11")
@@ -44,7 +44,7 @@ elif a > 5:
 Digunakan untuk mengeksekusi kode jika kondisi bernilai salah
 
 ```
-a = 10
+a = 4
 
 if a > 11:
     print("a Lebih besar dari 11")

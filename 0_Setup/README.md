@@ -1,12 +1,12 @@
 # Install Python Interpreter
 
-Berdasarkan cara menjalankan kode program, bahasa pemrograman dibagi mnenjadi dua jenis, yaitu :
+Berdasarkan cara menjalankan kode program, bahasa pemrograman dibagi menjadi dua jenis, yaitu :
 
 - Bahasa pemrograman kompilasi
 
-Bahasa pemrograman komplikasi adalah bahasa pemrograman yang kodenya di terjemahkan langsung oleh kompiler menjadi kode mesin. Kode mesin sendiri adalah bahasa yang dapat langsung dipahami dan dijalankan oleh komputer. Proses kompilasi sendiri menghasilkan file eksekusi yang dapat langsung dijalankan tanpa perlu adanya interpreter. Bahasa pemrograman yang tercatat menggunakan kompiler antara lain **C**, **C++**, **C#**, **Java**, **Kotlin**, dan **Rust**.
+Bahasa pemrograman kompilasi adalah bahasa pemrograman yang kodenya di terjemahkan langsung oleh kompiler menjadi kode mesin. Kode mesin sendiri adalah bahasa yang dapat langsung dipahami dan dijalankan oleh komputer. Proses kompilasi sendiri menghasilkan file eksekusi yang dapat langsung dijalankan tanpa perlu adanya interpreter. Bahasa pemrograman yang tercatat menggunakan kompiler antara lain **C**, **C++**, **C#**, **Java**, **Kotlin**, dan **Rust**.
 
-- Bahasa pemrograman interpretasi
+- Bahasa pemrograman interpreted
 
 Bahasa pemrograman yang kodenya diterjemahkan secara langsung oleh interpreter menjadi intruksi yang dapat dipahami oleh komputer. Proses interpretasi biasanya dilakukan saat program dijalankan. Contoh bahasa pemrograman interpretasi antara lain **Javascript**, **Ruby**, **Perl**, **PHP**, dan **Python** itu sendiri.
 
