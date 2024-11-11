@@ -72,8 +72,8 @@ Pernyataan kondisional adalah salah satu fitur penting yang perlu dipahami oleh 
 
 Pernyataan perulangan dalam Python digunakan untuk mengeksekusi blok kode berulang kali selama kondisi terpenuhi atau bernilai benar. Dalam Python sendiri terdapat dua jenis pernyataan perulangan pada Python, yaitu :
 
-- **While Loop** pernyataan perulangan yang akan mengeksekusi blok kode selama kondisinya bernilai benar.
 - **For Loop** pernyataan perulangan yang akan mengeksekusi blok kode untuk element dalam kumpulan data.
+- **While Loop** pernyataan perulangan yang akan mengeksekusi blok kode selama kondisinya bernilai benar.
 
 ### For loop
 

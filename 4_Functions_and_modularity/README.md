@@ -29,8 +29,8 @@ def tambah(x, y):
     return result
 
 # Memanggil fungsi dan menyimpan hasilnya
-sum_result = add(5,10)
-print("Hasil sama dengan : ", sum_result)
+tambah(5,10)
+print("Hasil sama dengan : ", tambah)
 ```
 
 Variabel yag terdapat pada fungsi hanya dapat digunakan dalam fungsi tersebut, bila ingin digunakan diluar fungsi tersebut maka variabel harus dideklarasikan kedalam variabel global.
