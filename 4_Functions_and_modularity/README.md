@@ -18,7 +18,7 @@ my_function()
 
 ### Parameter dan Return Value
 
-Fungsi dapat menerima parameter sebagai input untuk melakukan operasi tertentu. Return Statement digunakan untuk mengembalikan nilai dari fungsi. Sebuah fungsi dapat memiliki atau tidak parameter, dan dapat atau tidak mengembalikan suatu nilai.
+**Parameter** adalah variabel yang dideklarasikan dalam definisi fungsi. **Return Statement** digunakan untuk mengembalikan nilai dari fungsi. Sebuah fungsi dapat memiliki atau tidak parameter, dan dapat atau tidak mengembalikan suatu nilai.
 
 Contoh fungsi dengan parameter dan return values :
 
@@ -29,11 +29,10 @@ def tambah(x, y):
     return result
 
 # Memanggil fungsi dan menyimpan hasilnya
-tambah(5,10)
-print("Hasil sama dengan : ", tambah)
+print("Hasil sama dengan : ", tambah(5,10))
 ```
 
-Variabel yag terdapat pada fungsi hanya dapat digunakan dalam fungsi tersebut, bila ingin digunakan diluar fungsi tersebut maka variabel harus dideklarasikan kedalam variabel global.
+Variabel yang terdapat pada fungsi hanya dapat digunakan dalam fungsi tersebut, bila ingin digunakan diluar fungsi tersebut maka variabel harus dideklarasikan kedalam variabel global.
 
 ## Lambda Functions
 
@@ -45,7 +44,7 @@ Struktur umum fungsi Lambda :
 lambda argumen: ekspresi
 ```
 
-**Argumen** merupakan input yang kita berikan ke fungsi lambda, dan **ekspresi** adalah operator atau rumus atau kalkulasi yang ingin kita lakukan dengan argumen tersebut. Hasil dari **ekspresi** akan menjadi output fungsi.
+**Argumen** merupakan input yang kita berikan ke fungsi, dan **ekspresi** adalah operator atau rumus atau kalkulasi yang ingin kita lakukan dengan argumen tersebut. Hasil dari **ekspresi** akan menjadi output fungsi.
 
 Contoh :
 
@@ -57,12 +56,12 @@ print(tambah(4,5)) #Output 9
 **Penjelasan kode diatas**
 
 - `tambah` Adalah variabel yang menyimpan fungsi lambda.
-- Fungsi lambda menerima 2 argumen (`x` dan `y`) dan mengembalikan hasil penjumlahan mereka (`x + y`).
-- Ketika kita memanggil `tambah (4, 5)`, fungsi ini akan mengembalikan 7.
+- Fungsi lambda menerima 2 argumen (`a` dan `b`) dan mengembalikan hasil penjumlahan mereka (`a + b`).
+- Ketika kita memanggil `tambah (4, 5)`, fungsi ini akan mengembalikan 9.
 
 ## Modularity
 
-Modularity atau modularitas adlaah konsep dalam pemrograman yang merujuk pada pemisahan program kedalam bagian-bagian yang lebih kecil yang disebut modul. Modul adalah file Python yang berisi definsi variabel, fungsi, dan kelas yang dapat digunakan oleh program lain. Prinsip modulasi memberikan keuntungan dalam pemeliharaan, pengembangan, dan kejelasan kode.
+Modularity atau modularitas adalah konsep dalam pemrograman yang merujuk pada pemisahan program kedalam bagian-bagian yang lebih kecil yang disebut modul. Modul adalah file Python yang berisi definsi variabel, fungsi, dan kelas yang dapat digunakan oleh program lain. Prinsip modulasi memberikan keuntungan dalam pemeliharaan, pengembangan, dan kejelasan kode.
 
 ### Keuntungan Modularitas
 
@@ -117,7 +116,9 @@ Modul memberikan isolasi logika, dimana perubahan dalam satu modul tidak memenga
    import coba_modul.py
 
    hasil = coba_modul.eksponensial(3,4)
-   print hasil
+   print (hasil) # Output 81
+
+   nama = coba_modul.greet('Dawwam') # Output Hola, Dawwam!
    ```
 
 ### Catatan Penting

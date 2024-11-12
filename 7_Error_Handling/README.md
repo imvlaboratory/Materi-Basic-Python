@@ -23,7 +23,18 @@ except ZeroDivisionError:
 
 ## Else
 
-- **Finally**
+Blok `else` dapat digunakan setelah blok except untuk mengeksekusi kode jika tidak ada eror yang terjadi di dalam blok `try`.
+
+```
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Tidak bisa membagi dengan nol.")
+else:
+    print("Hasil:", result)
+```
+
+## Finally
 
 Dapat digunakan untuk menempatkan kode yang harus dijalankan, baik eror atau tidak. Blok ini akan berjalan selalu, bahkan jika ada atau tidak ada eror.
 

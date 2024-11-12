@@ -1,6 +1,6 @@
 # Data Structure
 
-Struktur data dalam Python adalah cara penyusunan dan penyimpanan data agar dapat diakses dan dikeloa dengan efisien. Python menyediakan berbagai jenis tipe data dan struktur data bawaan seperti lists, tuple, sets, dictionaries, strings, queues, stacks, linked lists, dan lainnya. Bebrapa diantaranya sudah dibahas pada section Data Types.
+Struktur data dalam Python adalah cara penyusunan dan penyimpanan data agar dapat diakses dan dikelola dengan efisien. Python menyediakan berbagai jenis tipe data dan struktur data bawaan seperti lists, tuple, sets, dictionaries, strings, queues, stacks, linked lists, dan lainnya. Beberapa diantaranya sudah dibahas pada section Data Types.
 
 Data struktur memungkinkan pengorganisasian data dengan cara tertentu agar dapat diakses atau dimanipulasi sesuai dengan kebutuhan aplikasi atau algoritma. Struktur data yang baik dapat memudahkan pengembangan, pemeliharaan, dan pemahaman kode program.
 
@@ -101,14 +101,14 @@ new_list = [expression for item in iterable if condition]
 
 ```
 squares = [x**2 for x in range(5)]
-# Output: [0, 1, 4, 9, 16]
+print (squares) # Output: [0, 1, 4, 9, 16]
 ```
 
 2. **Membuat List Hanya Bilangan Ganjil**
 
 ```
 odd_numbers = [x for x in range(10) if x % 2 != 0]
-# Output: [1, 3, 5, 7, 9]
+print(odd_numbers) # Output: [1, 3, 5, 7, 9]
 ```
 
 3. **Membuat List yang Menggandakan Setiap Karakter dalam String**
