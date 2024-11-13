@@ -54,7 +54,7 @@ else:
     print("a lebih kecil dari 5")
 ```
 
-Pernyataan kodisional dapat digunakan untuk berbagai jenis keperluan, diantaranya :
+Pernyataan kondisional dapat digunakan untuk berbagai jenis keperluan, diantaranya :
 
 - Untuk membuat kode lebih efisien
 - Untuk membuat kode lebih fleksibel

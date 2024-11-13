@@ -31,8 +31,9 @@ Python pertama kali dirilis pada tahun 1991, dan sejak itu telah menjadi salah s
 
    Python memilki sintaksis yang mudah dibaca dan memiliki struktur kode yang sederhana. Berikut contoh perbedaan syntax pada Python dan C.
 
-   ![12](/assets/12.png "12.png")
-   ![13](/assets/13.png "13.png")
+      <p align="center">
+       <img src="/assets/15.png" width="720" align="center">
+   </p>
 
 2. Dinamis dan Ditetapkan Pada Saat Runtime
 

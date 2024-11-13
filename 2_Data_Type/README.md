@@ -106,43 +106,34 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
 
 Setelah membahas berbagai macam Type data yang ada, selanjutnya kita akan membahas tentang perbedaan dari set, list, dictionary, dan tuple berdasarkan beberapa aspek, mulai dari **mutabilitas**, **indeks**, **duplikasi**, **penggunaan memory**, **fleksibilitas**, dan **kasus penggunaan**.
 
+![14](../assets/14.png "14.png")
+
 - Mutabilitas
 
-  - **Set** : Mutable, element dapat diubah setelah pembuatan.
-  - **List** : Mutable, element dalam list dapat diubah, ditambah, atau dihapus.
-  - **Dictionary** : Mutable, kunci dan nilai dalam dictionary dapat diubah.
-  - **Tuple** : Immutable, element dalam tuple tidak dapat diubah setelah pembuatan
+  - **Mutable** : Data dapat dimodifikasi, ditambah, atau dihapus setelah membuat.
+
+  * **Immutable** : Data tidak dapat diubah setelah didefinisikan. Jika mau diubah harus membuat ulang struktur datanya.
 
 - Indeks
 
-  - **Set** : Tidak dapat diindeks karena elementnya tidak diurutkan
-  - **List** : Dapat diindeks, element-element dalam list diakses dengan indeks.
-  - **Dictionary** : Tidak dapat diindeks menggunakan angga, tetapi harus menggunakan kunci.
-  - **Tuple** : Dapat diindeks, element-element dalam tuple dapat diindeks.
+  - **Indeks** : Struktur data yang memiliki posisi tertentu untuk setiap elemen, sehingga elemen dapat diakses menggunakan indeks (Kunci untuk Dictionary).
+
+  * **Tidak Indeks** : Elemen tidak memiliki memiliki urutan posisi.
 
 - Duplikasi
 
-  - **Set** : Tidak mengizinkan element duplikat, hanya element unik yang diterima.
-  - **List** : Dapat memiliki element duplikat, element dnegan nilai yang sama dapat muncul lebih dari sekali.
-  - **Dictionary** : Tidak mengzinkan kunci duplikat, tetapi nilai-nilai dapat diduplikat.
-  - **Tuple** : Dapat memiliki element duplikat, element yang sama dapat muncul lebih dari sekali.
+  - **Dapat Diduplikasi** : Elemen yang sama dapat ditambahkan berkali-kali.
+
+  * **Tidak Mengizinkan Duplikasi** : Elemen harus unik dan tidak boleh ada elemen identik.
 
 - Penggunaan Memori
 
-  - **Set** : Menggunakan lebih banyak memori karena harus mempertahankan elemen-elemen unik dan melakukan operasi hash untuk memastikan keunikan.
-  - **List** : Menggunakan lebih banyak memori dari pada tuple karena memungkinkan elemen duplikat dan perlu menyimpan urutan elemen.
-  - **Dictionary** : Menggunakan lebih banyak memori karena perlu menyimpan pasangan kunci-nilai dan melakukan operasi hash untuk mengakses nilai berdasarkan kunci.
-  - **Tuple** : Menggunakan memori lebih sedikit dibandingkan list karena elemennya immutable.
+  - Struktur data yang **Mutable** biasanya menggunakan lebih banyak memori karena perlu menyediakan ruang untuk perubahan.
+
+  * Struktur data yang **Imutable** sering kali lebih efisien dalam penggunaan memori.
 
 - Fleksibilitas
 
-  - **Set** : Tidak terurut, tidak dapat diindeks, dan fokus pada operasi set seperti gabungan, irisan, dan perbedaan.
-  - **List** : Terurut, dapat diindeks, dan lebih fleksibel untuk modifikasi, penambahan, penghapusan elemen.
-  - **Dictionary** : Tidak terurut (di Python sebelum versi 3.7), memungkinkan penyimpanan data yang terstruktur menggunakan pasangan kunci-nilai.
-  - **Tuple** : Terurut, dapat diindeks, dan lebih aman karena immutable.
+  - Struktur data yang **Fleksibel** bisa digunakan diberbagai kasus dan bisa disesuaikan untuk berbagai kebutuhan.
 
-- Kasus Penggunaan
-  - **Set** : Cocok untuk menyimpan elemen unik, melakukan operasi matematika seperti gabungan, irisan, atau perbedaan set.
-  - **List** : Cocok untuk menyimpan dan mengelola kumpulan data yang dapat diubah-ubah, seperti daftar item atau log data.
-  - **Dictionary** : Berguna untuk merepresentasikan data yang membutuhkan pasangan kunci-nilai, seperti konfigurasi, entitas terstruktur, atau data yang membutuhkan akses berdasarkan kunci.
-  - **Tuple** : Digunakan ketika data harus tetap konstan, seperti kumpulan data yang relevan seperti nama, usia, dll., yang tidak boleh diubah.
+  * Struktur data **Kurang Fleksibel** memiliki kegunaan yang terbatas, tetapi lebih efisien atau aman untuk data tetap.
