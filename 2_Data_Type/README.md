@@ -11,10 +11,10 @@ Merupakan tipe data dasar dari berbagai bahasa pemrograman, salah satunya python
   Tipe data yang menyimpan bilangan bulat. Integer dapat berupa bilangan bulat positif, negatif, atau nol.
 
   ```
-  Umur = 20
+  umur = 20
   tahun = 2000
   nilai = 0
-  Suhu = -10
+  suhu = -10
   ```
 
 - Float
@@ -31,8 +31,8 @@ Merupakan tipe data dasar dari berbagai bahasa pemrograman, salah satunya python
   Tipe data yang menyimpan text. Dapat berupa karakter, kata, kalimat, atau bahkan paragraf.
 
   ```
-  Nama = 'Andini'
-  Status = "Mahasiswi"
+  nama = 'Andini'
+  status = "Mahasiswi"
 
   multi_line = """ dengan tipe data ini bisa buat paragraf, puisi, dll"""
   ```
@@ -67,7 +67,7 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   Tipe data yang berfungsi menyimpan kumpulan data yang tidak dapat diubah (Immutable). Tuple dapat berupa kumpulan bilangan, string, atau kumpulan data kompleks lainnya.
 
   ```
-  Acara_imv = ("openlab", "IMV Transfer Learning") # Tuple of string
+  acara_imv = ("openlab", "IMV Transfer Learning") # Tuple of string
   data = (1, "Dini", 2021, "Asisten IMV") # tuple of mixed types
   ```
 
