@@ -49,7 +49,7 @@ Python pertama kali dirilis pada tahun 1991, dan sejak itu telah menjadi salah s
 
 5. Platform Independent
 
-   Python dapat dijalankan di berbagai platform, termasuk Windows, macOS, Linux, Android, iOS, dan sebagainya.
+   Python dapat dijalankan di berbagai platform, termasuk Windows, macOS, Linux, dan sebagainya.
 
 6. Interpreted
 

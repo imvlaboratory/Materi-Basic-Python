@@ -18,9 +18,9 @@ untuk pembahasan lebih lanjut akan dijelaskan pada (type data string)
 """
 ```
 
-## Identasi
+## Indentasi
 
-Merupakan suatu cara untuk menandai blok kode. Tidak seperti bahasa lain yang biasanya menggunkan kurung kurawal `{}` . Python menggunakan **identasi**(pergeseran baris kode kekanan) untuk menunjukkan hierarki atau struktur kode. Identasi standar di Python adalah 2 atau 4 spasi.
+Merupakan suatu cara untuk menandai blok kode. Tidak seperti bahasa lain yang biasanya menggunkan kurung kurawal `{}` . Python menggunakan **indentasi**(pergeseran baris kode kekanan) untuk menunjukkan hierarki atau struktur kode. Indentasi standar di Python adalah 2 atau 4 spasi.
 
 contoh :
 
