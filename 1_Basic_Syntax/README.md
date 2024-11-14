@@ -4,7 +4,7 @@ Python merupakan bahasa pemrograman yang memiliki syntaks yang relatif sederhana
 
 ## Comment
 
-Comment merupakan sebuah catatan yang dapat dimasukkan kedalam kode untuk menjelaskan apa yang dilakukan oleh kode tersebut. Comment diawali dengan tanda Pound(#).
+Comment merupakan sebuah catatan yang dapat dimasukkan kedalam kode untuk menjelaskan apa yang dilakukan oleh kode tersebut. Comment diawali dengan tanda pagar(#).
 
 ```
 # Ini komen pada baris pertama

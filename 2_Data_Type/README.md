@@ -60,18 +60,6 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   ```
   siswa = ["Andi", "Budi", "Citra"]
   print("Daftar siswa:", siswa)
-
-  # Menambah elemen
-  siswa.append("Dedi")
-  print("Setelah menambah Dedi:", siswa)
-
-  # Mengubah elemen
-  siswa[1] = "Bayu"
-  print("Setelah mengubah Budi menjadi Bayu:", siswa)
-
-  # Menghapus elemen
-  siswa.remove("Citra")
-  print("Setelah menghapus Citra:", siswa)
   ```
 
 * Tuple
@@ -81,12 +69,6 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   ```
   koordinat = (10, 20, 30)
   print("Koordinat:", koordinat)
-
-  # Mengakses elemen dengan indeks
-  x = koordinat[0]
-  y = koordinat[1]
-  z = koordinat[2]
-  print(f"x: {x}, y: {y}, z: {z}")
   ```
 
 * Set
@@ -96,22 +78,6 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   ```
   tag = {"python", "programming", "tutorial"}
   print("Tag:", tag)
-
-  # Menambah elemen ke dalam set
-  tag.add("coding")
-  print("Setelah menambah 'coding':", tag)
-
-  # Menghapus elemen dari set
-  tag.remove("tutorial")
-  print("Setelah menghapus 'tutorial':", tag)
-
-  # Melakukan operasi himpunan
-  tag_baru = {"coding", "learning"}
-  gabungan = tag.union(tag_baru)  # gabungan set
-  print("Gabungan tag:", gabungan)
-
-  irisan = tag.intersection(tag_baru)  # irisan set
-  print("Irisan tag:", irisan)
   ```
 
 * Dictionary
@@ -125,19 +91,6 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
     "kota": "Jakarta"
   }
   print("Profil pengguna:", profil)
-
-  # Mengakses nilai dengan kunci
-  print("Nama:", profil["nama"])
-  print("Umur:", profil["umur"])
-
-  # Menambah atau mengubah nilai
-  profil["pekerjaan"] = "Programmer"  # menambah kunci baru
-  profil["umur"] = 26  # mengubah nilai umur
-  print("Profil setelah update:", profil)
-
-  # Menghapus elemen dengan kunci
-  del profil["kota"]
-  print("Profil setelah menghapus kota:", profil)
   ```
 
 Setelah membahas berbagai macam Type data yang ada, selanjutnya kita akan membahas tentang perbedaan dari set, list, dictionary, dan tuple berdasarkan beberapa aspek, mulai dari **mutabilitas**, **indeks**, **duplikasi**, **penggunaan memory**, **fleksibilitas**, dan **kasus penggunaan**.
