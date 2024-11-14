@@ -1,6 +1,6 @@
 # Data Structure
 
-Struktur data dalam Python adalah cara penyusunan dan penyimpanan data agar dapat diakses dan dikelola dengan efisien. Python menyediakan berbagai jenis tipe data dan struktur data bawaan seperti lists, tuple, sets, dictionaries, strings, queues, stacks, linked lists, dan lainnya. Beberapa diantaranya sudah dibahas pada section Data Types.
+Struktur data dalam Python adalah cara penyusunan dan penyimpanan data agar dapat diakses dan dikelola dengan efisien. Python menyediakan berbagai jenis tipe data dan struktur data bawaan seperti tuple, sets, strings, queues, stacks, linked lists, dan lainnya. Beberapa diantaranya sudah dibahas pada section Data Types.
 
 Data struktur memungkinkan pengorganisasian data dengan cara tertentu agar dapat diakses atau dimanipulasi sesuai dengan kebutuhan aplikasi atau algoritma. Struktur data yang baik dapat memudahkan pengembangan, pemeliharaan, dan pemahaman kode program.
 
