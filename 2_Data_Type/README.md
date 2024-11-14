@@ -56,10 +56,22 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
 
 - List
   Tipe data yang dapat menyimpan kumpulan data. List dapat berupa kumpulan bilangan, string, atau kumpulan data kompleks lainnya.
+
   ```
-  angka = [1,1,2,3,4,10] # List of integer
-  nama = ["Nur", "Winana", "Nisa"] # List of string
-  data = [1, "IMV", True, (1,0.5,8)] # List of mixed data types
+  siswa = ["Andi", "Budi", "Citra"]
+  print("Daftar siswa:", siswa)
+
+  # Menambah elemen
+  siswa.append("Dedi")
+  print("Setelah menambah Dedi:", siswa)
+
+  # Mengubah elemen
+  siswa[1] = "Bayu"
+  print("Setelah mengubah Budi menjadi Bayu:", siswa)
+
+  # Menghapus elemen
+  siswa.remove("Citra")
+  print("Setelah menghapus Citra:", siswa)
   ```
 
 * Tuple
@@ -67,8 +79,14 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   Tipe data yang berfungsi menyimpan kumpulan data yang tidak dapat diubah (Immutable). Tuple dapat berupa kumpulan bilangan, string, atau kumpulan data kompleks lainnya.
 
   ```
-  acara_imv = ("openlab", "IMV Transfer Learning") # Tuple of string
-  data = (1, "Dini", 2021, "Asisten IMV") # tuple of mixed types
+  koordinat = (10, 20, 30)
+  print("Koordinat:", koordinat)
+
+  # Mengakses elemen dengan indeks
+  x = koordinat[0]
+  y = koordinat[1]
+  z = koordinat[2]
+  print(f"x: {x}, y: {y}, z: {z}")
   ```
 
 * Set
@@ -76,9 +94,24 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   Merupakan kumpulan data yang tidak memiliki urutan.
 
   ```
-  bilangan = {1,2,0,100,-2,0.4} # Set of Numerik
-  lab = {'IMV', '2023', "kaya! Kaya! Kaya!"} # Set of String
-  mixed = {1, "Jhon doe", True} # Set of Mixed types
+  tag = {"python", "programming", "tutorial"}
+  print("Tag:", tag)
+
+  # Menambah elemen ke dalam set
+  tag.add("coding")
+  print("Setelah menambah 'coding':", tag)
+
+  # Menghapus elemen dari set
+  tag.remove("tutorial")
+  print("Setelah menghapus 'tutorial':", tag)
+
+  # Melakukan operasi himpunan
+  tag_baru = {"coding", "learning"}
+  gabungan = tag.union(tag_baru)  # gabungan set
+  print("Gabungan tag:", gabungan)
+
+  irisan = tag.intersection(tag_baru)  # irisan set
+  print("Irisan tag:", irisan)
   ```
 
 * Dictionary
@@ -86,22 +119,25 @@ Tipe data yang didalamnya terdapat atau terdiri dari berbagai macam tipe. Tipe d
   Tipe data yang digunakan untuk menyimpan pasangan **key** - **value** (kunci-nilai). Directory dapat digunakan untuk menyimpan data dalam bentuk tabel. Setiap item dipisahkan oleh tanda titik dua `:`
 
   ```
-  biodata = {
-  'nama' : 'Muhammad Dawwam',
-  'alamat': 'Telkom University Landmark Tower Lantai 11 no 08 (TULT 11.08)',
-  'jurusan': 'Teknik Telekomunikasi',
-  'umur': 78,
-  'is_married': True,
-  'tinggi_badan': 309.62,
-  'laboratorium': ('Daskom','IMV'),
-  'murid': {
-    'nama': 'Ridwan Maulana Tanjung',
-    'alamat': 'Perumahan Bogor Ogah Geser Blok B1, No 7',
-    'jurusan': 'Teknik Fisika',
-    'is_married': False,
-    'matkul_fav': ['Kalkulus', 'Pengolahan Sinyal', 'Elektromagnetika', 'Fisika Modern'],
-    }
+  profil = {
+    "nama": "Alice",
+    "umur": 25,
+    "kota": "Jakarta"
   }
+  print("Profil pengguna:", profil)
+
+  # Mengakses nilai dengan kunci
+  print("Nama:", profil["nama"])
+  print("Umur:", profil["umur"])
+
+  # Menambah atau mengubah nilai
+  profil["pekerjaan"] = "Programmer"  # menambah kunci baru
+  profil["umur"] = 26  # mengubah nilai umur
+  print("Profil setelah update:", profil)
+
+  # Menghapus elemen dengan kunci
+  del profil["kota"]
+  print("Profil setelah menghapus kota:", profil)
   ```
 
 Setelah membahas berbagai macam Type data yang ada, selanjutnya kita akan membahas tentang perbedaan dari set, list, dictionary, dan tuple berdasarkan beberapa aspek, mulai dari **mutabilitas**, **indeks**, **duplikasi**, **penggunaan memory**, **fleksibilitas**, dan **kasus penggunaan**.
